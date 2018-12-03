@@ -1,0 +1,108 @@
+@media (max-width: 767px) {
+  .section-preview .image img {
+    width: 100%
+  }
+}
+
+@media (max-width: 767px) {
+  #banner {
+    margin-bottom: 2em;
+    text-align: center
+  }
+}
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.social-buttons li {
+    float: left;
+    margin-right: 15px;
+    color: white;
+}
+
+.btn-facebook {
+    background-color: #3B5998;
+}
+
+.btn-facebook:focus, .btn-facebook:hover {
+    background-color: #4264aa
+}
+
+.btn-googleplus {
+    background-color: #DD4B39
+}
+
+.btn-googleplus:focus, .btn-googleplus:hover {
+    background-color: #e15f4f
+}
+
+.btn-linkedin {
+    background-color: #0082CA
+}
+
+.btn-linkedin:focus, .btn-linkedin:hover {
+    background-color: #0092e4
+}
+
+.btn-github {
+    background-color: #4183C4
+}
+
+.btn-github:focus, .btn-github:hover {
+    background-color: #5490ca
+}
+
+.btn-twitter {
+  background-color:#55acee;
+}
+
+.btn-twitter:focus, .btn-twitter:hover
+{
+  background-color:#2795e9;
+}
+
+.additional-margin {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  box-sizing: content-box;
+  display: block;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+}
+
+footer {
+  margin: 2em 0 0 0;
+  padding: 1em 0 0 0;
+  background-color: #838383;
+  color: #e7e7e7;
+}
+
+footer ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-trailing {      
+  background-color: #515151;
+  padding: 1em 0 1em 0;
+}
+
+.panel.noshadow {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
