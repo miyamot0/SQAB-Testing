@@ -11,6 +11,8 @@ import Registration from './components/pages/Registration';
 import Submissions from './components/pages/Submissions';
 import Tutorials from './components/pages/Tutorials';
 
+import DemandCurveAnalyzer from './components/pages/DemandCurveAnalyzer';
+
 class App extends Component {
   render() {
     return (
@@ -25,6 +27,8 @@ class App extends Component {
             <Route path='/Registration' component = { Registration } />
             <Route path='/Submissions' component = { Submissions } />
             <Route path='/Tutorials' component = { Tutorials } />
+
+            <Route path='/DemandCurveAnalyzer' component = { DemandCurveAnalyzer } />
           </Switch>
 
           <Footer />

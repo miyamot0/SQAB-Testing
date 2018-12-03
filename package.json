@@ -4,9 +4,15 @@
   "private": true,
   "homepage": "https://miyamot0.github.io/SQAB-Testing",
   "dependencies": {
+    "@handsontable/react": "^2.0.0",
+    "chart.js": "^2.7.3",
     "gh-pages": "^2.0.1",
+    "handsontable": "^6.2.0",
+    "jquery": "^3.3.1",
     "package": "^1.0.1",
     "react": "^16.6.3",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
