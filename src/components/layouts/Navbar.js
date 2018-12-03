@@ -20,9 +20,9 @@ const Navbar = () => {
                             <a href="#" data-target="#" className="dropdown-toggle" data-toggle="dropdown">Conference<b className="caret"></b></a>
                             <ul className="dropdown-menu">
                                 <li><Link to="/Conference">Annual Conference </Link></li>
-
-                                <li><Link to="/Tutorials">Recorded Tutorials </Link></li>
+                                <li><Link to="/Tutorials">Recorded Tutorials </Link></li>                                
                                 <li><Link to="/Registration">Registration </Link></li>
+                                
                                 <li><Link to="/Submission">Submissions </Link></li>
                                 <li><Link to="/Programs">Programs &amp; Newsletters </Link></li>
                             </ul>

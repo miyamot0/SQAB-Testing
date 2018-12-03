@@ -16,7 +16,7 @@ class Conference extends Component {
                 
                 <div className="row">
                     <div className="col-md-6 text-center">
-                        <img className="center-block" src="img/SQABvector.svg" className="img" alt="main logo2"/>
+                        <img className="center-block" src="img/SQABvector.svg" alt="main logo2"/>
                         <br/>
                     </div>
                 

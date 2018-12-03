@@ -6,10 +6,11 @@ function checkParamsPresent()
 	return document.location.toString().indexOf('?') !== -1;
 }
 
-const isInDirectory = !checkParamsPresent();
-
 class Tutorials extends Component {
     render() {
+        const isInDirectory = !checkParamsPresent();
+
+        console.log(document.location.toString());
         var relevantTutorial = tutorialData.Tutorials;
 
         if (isInDirectory)
@@ -53,7 +54,7 @@ class Tutorials extends Component {
             var paramString = document.location.toString().split("?")[1];
             var index = parseInt(paramString.split("=")[1]);
 
-            const buttonPrev = (index == 0) ?
+            const buttonPrev = (index === 0) ?
                 <a id="buttonPrev" 
                    href="#" 
                    className="btn btn-info btn-raised invisible">Previous Video</a> :
