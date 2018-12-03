@@ -6,6 +6,7 @@ import Footer from './components/layouts/Footer';
 
 import HomePage from './components/pages/HomePage';
 import Conference from './components/pages/Conference';
+import Programs from './components/pages/Programs';
 import Registration from './components/pages/Registration';
 import Submissions from './components/pages/Submissions';
 import Tutorials from './components/pages/Tutorials';
@@ -19,6 +20,7 @@ class App extends Component {
           
           <Switch>
             <Route exact path='/' component = { HomePage } />
+            <Route exact path='/Programs' component = { Programs } />            
             <Route path='/Conference' component = { Conference } />
             <Route path='/Registration' component = { Registration } />
             <Route path='/Submissions' component = { Submissions } />

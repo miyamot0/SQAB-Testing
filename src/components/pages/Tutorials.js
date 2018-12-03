@@ -10,7 +10,6 @@ class Tutorials extends Component {
     render() {
         const isInDirectory = !checkParamsPresent();
 
-        console.log(document.location.toString());
         var relevantTutorial = tutorialData.Tutorials;
 
         if (isInDirectory)
