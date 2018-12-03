@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
+
 import HomePage from './components/pages/HomePage';
+import Conference from './components/pages/Conference';
 
 class App extends Component {
   render() {
@@ -12,7 +15,8 @@ class App extends Component {
           <Navbar />
           
           <Switch>
-            <Route exact path='/' component={ HomePage } />
+            <Route exact path='/' component = { HomePage } />
+            <Route exact path='/Conference' component = { Conference } />
           </Switch>
 
           <Footer />
@@ -21,13 +25,5 @@ class App extends Component {
     );
   }
 }
-
-//<Switch>
-//<Route exact path='/' component={Dashboard} />
-//</Switch>
-//<Route path='/signin' component={SignIn} />
-//<Route path='/project/:id' component={ProjectDetails} />
-//<Route path='/VisualDiscrimination' component={VisualDiscrimination} />
-
 
 export default App;

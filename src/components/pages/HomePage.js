@@ -7,11 +7,11 @@ class HomePage extends Component {
             <div className="container"> 
              
                 <div className="row text-center">
-                    <img className="center-block" src="/img/SQABvector.svg" className="img"/><br/>
+                    <img className="center-block" src="/img/SQABvector.svg" alt="mainImg"/><br/>
                 </div>
 
                 <br/>
-                <hr className="extra-margin"/>
+                    <hr className="extra-margin"/>
                 <br/>
             
                 <div className="row">
@@ -89,17 +89,17 @@ class HomePage extends Component {
                                 </ol>
             
                                 <div className="carousel-inner">
-                                    <div className="item active"><img className="d-block w-100" src="/img/tut-1.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-2.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-3.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-4.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-5.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-6.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-7.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-8.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-9.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-10.jpeg" alt="Second slide"/></div>
-                                    <div className="item"><img className="d-block w-100" src="/img/tut-11.jpeg" alt="Second slide"/></div>
+                                    <div className="item active"><img className="d-block w-100" src="/img/tut-1.jpeg" alt="Second slide1"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-2.jpeg" alt="Second slide2"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-3.jpeg" alt="Second slide3"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-4.jpeg" alt="Second slide4"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-5.jpeg" alt="Second slide5"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-6.jpeg" alt="Second slide6"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-7.jpeg" alt="Second slide7"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-8.jpeg" alt="Second slide8"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-9.jpeg" alt="Second slide9"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-10.jpeg" alt="Second slide10"/></div>
+                                    <div className="item"><img className="d-block w-100" src="/img/tut-11.jpeg" alt="Second slide11"/></div>
                                 </div>
             
                                 <a className="left carousel-control" href="#myCarousel2" data-slide="prev">

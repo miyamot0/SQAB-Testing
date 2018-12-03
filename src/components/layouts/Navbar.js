@@ -1,6 +1,5 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
-//import NavbarLinks from './NavbarLinks';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -13,32 +12,34 @@ const Navbar = () => {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" href="index.html">SQAB</a>
+                        <a className="navbar-brand" href="/">SQAB</a>
                     </div>
                     <div className="navbar-collapse collapse navbar-responsive-collapse">
                         <ul className="nav navbar-nav">
                         <li className="dropdown">
                             <a href="#" data-target="#" className="dropdown-toggle" data-toggle="dropdown">Conference<b className="caret"></b></a>
                             <ul className="dropdown-menu">
-                            <li><a href="Conference.html">Annual Conference </a></li>
-                            <li><a href="Tutorial.html">Recorded Tutorials</a></li>
-                            <li><a href="Registration.html">Registration </a></li>
-                            <li><a href="Submission.html">Submissions </a></li>
-                            <li><a href="Programs.html">Programs &amp; Newsletters </a></li>
+                                <li><Link to="/Conference">Annual Conference </Link></li>
+
+                                <li><Link to="/Tutorials">Recorded Tutorials </Link></li>
+                                <li><Link to="/Registration">Registration </Link></li>
+                                <li><Link to="/Submission">Submissions </Link></li>
+                                <li><Link to="/Programs">Programs &amp; Newsletters </Link></li>
                             </ul>
                         </li>
 
                         <li className="dropdown">
                             <a href="#" data-target="#" className="dropdown-toggle" data-toggle="dropdown">Resources<b className="caret"></b></a>
                             <ul className="dropdown-menu">
-                            <li><a href="DemandCurveAnalyzer.html">Demand Curve Analyzer </a></li>
-                            <li><a href="DiscountingModelSelector.html">Discounting Model Selector </a></li>
-                            <li><a href="Resources.html">Resource Links </a></li>
+                                <li><Link to="/DemandCurveAnalyzer">Demand Curve Analyzer </Link></li>
+                                <li><Link to="/DiscountingModelSelector">Discounting Model Selector </Link></li>
+                                <li><Link to="/Resources">Resource Links </Link></li>
                             </ul>
                         </li>               
                         
-                        <li><a href="BehavioralProcesses.html">Behavioral Processes</a></li>
-                        <li><a href="Board.html">Executive Board</a></li>
+                        <li><Link to="/BehavioralProcesses">Behavioral Processes </Link></li>
+                        <li><Link to="/Board">Executive Board </Link></li>
+
                         <li><a href="#" data-toggle="modal" data-target="#privacyModal">Privacy </a></li>
                         <li><a href="#" data-toggle="modal" data-target="#listservModal">Listserv </a></li>
                         </ul>
