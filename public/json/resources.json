@@ -1,0 +1,123 @@
+
+
+{
+  "Labs": [
+    {
+      "Name": "Alcohol Lab",
+      "Location": "http:\/\/alcohollab.pages.tcnj.edu\/",
+      "University": "The College of New Jersey, Department of Psychology",
+      "PI": "Margaret Martinetti, PhD"
+    },
+    {
+      "Name": "Behavioral Economics Lab",
+      "Location": "http:\/\/psych.wustl.edu\/lengreen\/members.html",
+      "University": "Washington University in St. Louis, Department of Psychology",
+      "PI": "Leonard Green, PhD"
+    },
+    {
+      "Name": "Avian Visual Cognition Lab\u200b",
+      "Location": "http:\/\/pigeon.psy.tufts.edu\/avc\/toc.htm",
+      "University": "Tufts University, Department of Psychology",
+      "PI": "Robert Cook, PhD"
+    },
+    {
+      "Name": "Basic Behavioral Processes Lab\u200b",
+      "Location": "https:\/\/psychology.clas.asu.edu\/research\/labs\/basic-behavioral-processes-lab-sanabria",
+      "University": "Arizona State University, Department of Psychology",
+      "PI": "Federico Sanabria, PhD"
+    },
+    {
+      "Name": "Quantitative Analysis of Behavior Laboratory",
+      "Location": "http:\/\/qablab.weebly.com\/",
+      "University": "West Virginia University, Department of Psychology",
+      "PI": "Elizabeth Kyonka, PhD"
+    },
+    {
+      "Name": "Behavioural Ecolocy Research Group",
+      "Location": "http:\/\/users.ox.ac.uk\/~kgroup\/index.html",
+      "University": "University of Oxford, Department of Zoology",
+      "PI": "Alex Kacelnik, PhD"
+    },
+    {
+      "Name": "Experimental Analysis of Behaviour Research Group",
+      "Location": "http:\/\/www.psych.auckland.ac.nz\/en\/about\/our-research\/research-groups\/experimental-analysis-of-behaviour-research.html",
+      "University": "The University of Auckland, School of Psychology",
+      "PI": "Michael Davison, PhD"
+    },
+    {
+      "Name": "Operant Behavioral Research Lab",
+      "Location": "http:\/\/asu.academia.edu\/PeterKilleen",
+      "University": "Arizona State University, Department of Psychology",
+      "PI": "Peter Killeen, PhD"
+    },
+    {
+      "Name": "Applied Behavioral Economics Laboratory",
+      "Location": "http:\/\/www.behavioraleconlab.com\/",
+      "University": "University of Kansas, Department of Applied Behavioral Science",
+      "PI": "Derek Reed, PhD"
+    }
+  ],
+  "Books": [
+    {
+      "Name": "Nevin, John A. (2015). Behavioral momentum: A scientific metaphor. Self-published.",
+      "Location": "http:\/\/www.amazon.com\/Behavioral-Momentum-Scientific-John-Nevin\/dp\/1512297690\/ref=sr_1_1?ie=UTF8&qid=1442862677&sr=8-1&keywords=Behavioral+momentum+Nevin"
+    }
+  ],
+  "SpecialIssues": [
+    {
+      "Name": "Special issue of the Mexican Journal of Behavior Analysis (Persistence and Relapse)",
+      "Location": "http:\/\/rmac-mx.org\/tabla-de-contenidos\/"
+    }
+  ],
+  "Tools": [
+    {
+      "Name": "Hursh, S. R., & Roma, P. G. (2014). Exponential model of demand in GraphPad Prism",
+      "Location": "http:\/\/www.ibrinc.org\/index.php?id=175",
+      "Type": "Demand"
+    },
+    {
+      "Name": "Kaplan, B. A., & Reed, D. D. (2014). Essential value, pmax, and omax automated calculator",
+      "Location": "http:\/\/hdl.handle.net\/1808\/14934",
+      "Type": "Demand"
+    },
+    {
+      "Name": "Stein, J. S., Koffarnus, M. N., Snider, S. E., Quisenberry, A. J., & Bickel, W. K. (2015). Nonsystematic Purchase Task Data Identification Tool: Supplement to Stein, Koffarnus, Snider, Quisenberry, & Bickel",
+      "Location": "https:\/\/www.researchgate.net\/publication\/283513311_Nonsystematic_Purchase_Task_Data_Identification_Tool_Supplement_to_Stein_Koffarnus_Snider_Quisenberry__Bickel_%282015%29",
+      "Type": "Demand"
+    },
+    {
+      "Name": "Reed, D. D. (2015).Exponential demand simulation tool",
+      "Location": "http:\/\/hdl.handle.net\/1808\/17909",
+      "Type": "Demand"
+    },
+    {
+      "Name": "Gray, J. C., Amlung, M. T., Palmer, A. A.; MacKillop, J. (2016). Syntax for Calculation of Discounting Indices from the Monetary Choice Questionnaire and Probability Discounting Questionnaire",
+      "Location": "https:\/\/onlinelibrary.wiley.com\/doi\/abs\/10.1002\/jeab.221",
+      "Type": "Discounting"
+    },
+    {
+      "Name": "Kaplan, B. A., Lemley, S. M., Reed, D. D., & Jarmolowicz, D. P. (2014). \u200b21- and 27-item monetary choice questionnaire automated scorers",
+      "Location": "https:\/\/kuscholarworks.ku.edu\/handle\/1808\/15424",
+      "Type": "Discounting"
+    },
+    {
+      "Name": "Reed, D. D. (2015). Delay discounting visualization tool",
+      "Location": "https:\/\/kuscholarworks.ku.edu\/handle\/1808\/17907",
+      "Type": "Discounting"
+    },
+    {
+      "Name": "Reed, D. D. (2015). Matching law visualization tool",
+      "Location": "https:\/\/kuscholarworks.ku.edu\/handle\/1808\/17908",
+      "Type": "Matching"
+    }
+  ],
+  "Software": [
+    {
+      "Name": "Gilroy, S. P. (2016). Discounting Model Selector",
+      "Location": "https:\/\/github.com\/miyamot0\/ModelSelectorQt\/releases",
+      "Type": "Discounting",
+      "Source": "https:\/\/github.com\/miyamot0\/ModelSelectorQt"
+    }
+  ]
+}
+

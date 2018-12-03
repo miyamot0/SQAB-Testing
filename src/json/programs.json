@@ -1,0 +1,118 @@
+{
+  "Programs": [
+    {
+      "Year": 2004,
+      "Path": "programs\/2004.pdf"
+    },
+    {
+      "Year": 2005,
+      "Path": "programs\/2005.pdf"
+    },
+    {
+      "Year": 2006,
+      "Path": "programs\/2006.pdf"
+    },
+    {
+      "Year": 2007,
+      "Path": "programs\/2007.pdf"
+    },
+    {
+      "Year": 2008,
+      "Path": "programs\/2008.pdf"
+    },
+    {
+      "Year": 2009,
+      "Path": "programs\/2009.pdf"
+    },
+    {
+      "Year": 2010,
+      "Path": "programs\/2010.pdf"
+    },
+    {
+      "Year": 2011,
+      "Path": "programs\/2011.pdf"
+    },
+    {
+      "Year": 2012,
+      "Path": "programs\/2012.pdf"
+    },
+    {
+      "Year": 2013,
+      "Path": "programs\/2013.pdf"
+    },
+    {
+      "Year": 2014,
+      "Path": "programs\/2014.pdf"
+    },
+    {
+      "Year": 2015,
+      "Path": "programs\/2015.pdf"
+    },
+    {
+      "Year": 2016,
+      "Path": "programs\/2016.pdf"
+    },
+    {
+      "Year": 2017,
+      "Path": "programs\/2017.pdf"
+    },
+    {
+      "Year": 2018,
+      "Path": "programs\/2018.pdf"
+    }
+  ],
+  "Newsletters": [
+    {
+      "Year": 2005,
+      "Path": "newsletters\/2005.pdf"
+    },
+    {
+      "Year": 2006,
+      "Path": "newsletters\/2006.pdf"
+    },
+    {
+      "Year": 2007,
+      "Path": "newsletters\/2007.pdf"
+    },
+    {
+      "Year": 2008,
+      "Path": "newsletters\/2008.pdf"
+    },
+    {
+      "Year": 2009,
+      "Path": "newsletters\/2009.pdf"
+    },
+    {
+      "Year": 2011,
+      "Path": "newsletters\/2011.pdf"
+    },
+    {
+      "Year": 2012,
+      "Path": "newsletters\/2012.pdf"
+    },
+    {
+      "Year": 2013,
+      "Path": "newsletters\/2013.pdf"
+    },
+    {
+      "Year": 2014,
+      "Path": "newsletters\/2014.pdf"
+    },
+    {
+      "Year": 2015,
+      "Path": "newsletters\/2015.pdf"
+    },
+    {
+      "Year": 2016,
+      "Path": "newsletters\/2016.pdf"
+    },
+    {
+      "Year": 2017,
+      "Path": "newsletters\/2017.pdf"
+    },
+    {
+      "Year": 2018,
+      "Path": "newsletters\/2018.pdf"
+    }
+  ]
+}

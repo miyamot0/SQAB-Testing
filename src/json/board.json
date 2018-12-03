@@ -1,0 +1,150 @@
+{
+   "Officers":[
+      {
+         "Name":"Chris Podlesnik",
+         "Contact":"cpodlesnik@fit.edu",
+         "Role":"Board Director & President"
+      },
+      {
+         "Name":"Suzanne Mitchell",
+         "Contact":"mitchesu@ohsu.edu",
+         "Role":"Board Director, Program Chair & President-Elect"
+      },
+      {
+         "Name":"Brian Greer",
+         "Contact":"brian.greer@unmc.edu",
+         "Role":"Board Director, Exec. Director"
+      },
+      {
+         "Name":"Adam Fox",
+         "Contact":"afox@stlawu.edu",
+         "Role":"Board Director & Secretary"
+      },
+      {
+         "Name":"Carla Lagorio",
+         "Contact":"LAGORICH@uwec.edu",
+         "Role":"Board Director & Treasurer"
+      },
+      {
+         "Name":"Jason Bourret",
+         "Contact":"jbourret@necc.org",
+         "Role":"Board Director"
+      },
+      {
+         "Name":"Sarah Cowie",
+         "Contact":"sarah.cowie@auckland.ac.nz",
+         "Role":"Board Director"
+      },
+      {
+         "Name":"Mark Reilly",
+         "Contact":"reill1mp@cmich.edu",
+         "Role":"Board Director"
+      },
+      {
+         "Name":"Derek Reed",
+         "Contact":"dreed@ku.edu",
+         "Role":"Board Director"
+      },
+      {
+         "Name":"Todd McKerchar",
+         "Contact":"tmckerchar@jsu.edu",
+         "Role":"Tutorial Coordinator"
+      },
+      {
+         "Name":"Shawn Gilroy",
+         "Contact":"sgilroy1@lsu.edu",
+         "Role":"Webmaster"
+      }
+   ],
+   "Students":[
+      {
+         "Name":"Ryan T. Kimball",
+         "Contact":"ryan.kimball@unmc.edu",
+         "Role":"Student Council Representative"
+      },
+      {
+         "Name":"Allyson Salzer",
+         "Contact":"asalzer@ku.edu",
+         "Role":"Membership Coordinator"
+      },
+      {
+         "Name":"Gabriela E. López-Tolsa",
+         "Contact":"gabrielaeugenia.89@gmail.com",
+         "Role":"Social Media Coordinator"
+      }
+   ],
+   "PastDirectors":[
+      {
+         "Name":"Federico Sanabria",
+         "Role":"Past Board Director"
+      },
+      {
+         "Name":"Derek Reed",
+         "Role":"Past Board Director, Exec. Director"
+      },
+      {
+         "Name":"Elizabeth Kyonka",
+         "Role":"Past Secretary, Board Director"
+      },
+      {
+         "Name":"Lavinia Tan",
+         "Role":"Past Treasurer, Board Director"
+      },
+      {
+         "Name":"Timothy D. Hackenberg",
+         "Role":"Past Board Director"
+      },
+      {
+         "Name":"Armando Machado",
+         "Role":"Past Board Director"
+      },
+      {
+         "Name":"Peter Richard Killeen",
+         "Role":"Past Board Director"
+      },
+      {
+         "Name":"John Anthony Nevin",
+         "Role":"Past Board Director"
+      },
+      {
+         "Name":"Cynthia Pietras",
+         "Role":"Past Board Director"
+      },
+      {
+         "Name":"Darlene Crone-Todd",
+         "Role":"Past Board Director, Exec. Director"
+      }
+   ],
+   "PastPresident":[
+      {
+         "Name":"Lewis Bizo"
+      },
+      {
+         "Name":"Timothy Shahan"
+      },
+      {
+         "Name":"Alliston Reid"
+      },
+      {
+         "Name":"Randolph Grace"
+      },
+      {
+         "Name":"Michael Lamport Commons"
+      },
+      {
+         "Name":"William M. Baum"
+      },
+      {
+         "Name":"Armando Machado"
+      },
+      {
+         "Name":"Peter Richard Killeen"
+      },
+      {
+         "Name":"John Anthony Nevin"
+      },
+      {
+         "Name":"Richard J. Herrnstein"
+      }
+   ]
+}

@@ -8,9 +8,9 @@ const Navbar = () => {
                 <div className="container-fluid">
                     <div className="navbar-header">
                         <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
                         </button>
                         <a className="navbar-brand" href="/">SQAB</a>
                     </div>
@@ -49,15 +49,5 @@ const Navbar = () => {
         </header>
     )
 }
-
-
-/*
-<nav className="nav-wrapper grey darken-3">
-<div className="container">
-    <Link to="/">SQAB</Link>
-    { <NavbarLinks /> }
-</div>
-</nav>
-*/
 
 export default Navbar;

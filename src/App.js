@@ -6,6 +6,7 @@ import Footer from './components/layouts/Footer';
 
 import HomePage from './components/pages/HomePage';
 import Conference from './components/pages/Conference';
+import Tutorials from './components/pages/Tutorials';
 
 class App extends Component {
   render() {
@@ -16,7 +17,8 @@ class App extends Component {
           
           <Switch>
             <Route exact path='/' component = { HomePage } />
-            <Route exact path='/Conference' component = { Conference } />
+            <Route path='/Conference' component = { Conference } />
+            <Route path='/Tutorials' component = { Tutorials } />
           </Switch>
 
           <Footer />

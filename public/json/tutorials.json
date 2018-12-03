@@ -1,0 +1,456 @@
+{
+   "Name":"SQAB Tutorials",
+   "Summary":"Listing of youtube videos",
+   "Tutorials":[
+      {
+         "Index":0,
+         "Title":"Shawn Gilroy, Open-sourcing Behavior Analysis: Technology for Enhancing Research and Practice, SQAB",
+         "Summary":"Chair: Donald A. Hantula (Temple University) This tutorial provides a primer on open-source software designed for behavior analysts and behavioral scientists.",
+         "Video":"https://www.youtube.com/embed/uyUdNDy42Hg"
+      },
+      {
+         "Index":1,
+         "Title":"Elizabeth G. E. Kyonka, Selection by Scientific Consequences in Ecology of Behavior Analysis, SQAB",
+         "Summary":"Chair: Adam E. Fox (St. Lawrence University, USA) Ecology is the study of how organisms relate to one another and to their physical environment. This tutorial ...",
+         "Video":"https://www.youtube.com/embed/1-y9JxHw4ck"
+      },
+      {
+         "Index":2,
+         "Title":"Steven R. Hursh, Behavioral Economics and Public Policy, SQAB",
+         "Summary":"Chair: Derek D. Reed (University of Kansas) Much of public policy has to do with how to formulate policy to either directly influence human behavior toward ...",
+         "Video":"https://www.youtube.com/embed/BZUwYbp9hSY"
+      },
+      {
+         "Index":3,
+         "Title":"Dermot Barnes-Holmes, Relational Frame Theory: Past, Present, and Future, SQAB",
+         "Summary":"Chair: Michael J. Dougher (University of New Mexico) The seminal research on equivalence relations by Sidman (1994) and colleagues, which commenced in ...",
+         "Video":"https://www.youtube.com/embed/hZm0B8QKB_Y"
+      },
+      {
+         "Index":4,
+         "Title":"Erin B. Rasmussen, Domain Effects, Obesity, and Delay Discounting, SQAB",
+         "Summary":"Chair: Steven R. Lawyer (Idaho State University) Delay discounting refers to a preference for smaller, sooner over larger, delayed outcome. Domain effects refer ...",
+         "Video":"https://www.youtube.com/embed/nCp_HRqGlN4"
+      },
+      {
+         "Index":5,
+         "Title":"Timothy A. Shahan, Relapse, SQAB",
+         "Summary":"Chair: John \"Tony\" A. Nevin (University of New Hampshire) The recurrence of previously eliminated operant behavior (i.e., relapse) represents a challenge to the ...",
+         "Video":"https://www.youtube.com/embed/U8F4Ux2n3Bo"
+      },
+      {
+         "Index":6,
+         "Title":"Derek D. Reed, Applying Operant Demand Analyses to Issues of Societal Importance, SQAB",
+         "Summary":"Chair: Matthew W. Johnson (Johns Hopkins University School of Medicine) Behavioral economic demand analyses quantify the degree to which organisms ...",
+         "Video":"https://www.youtube.com/embed/MvW_nPzKXTI"
+      },
+      {
+         "Index":7,
+         "Title":"Christopher Newland, What's the Best Model for These Data? Information Theoretical Approaches, SQAB",
+         "Summary":"Chair: Peter R. Killeen (Arizona State University) Null Hypothesis Statistical Testing (NHST) was developed to provide an objective way to quantify inference.",
+         "Video":"https://www.youtube.com/embed/xmahmYkQNLE"
+      },
+      {
+         "Index":8,
+         "Title":"C. R. Gallistel, \"Action Hierarchy\" SQAB",
+         "Summary":"",
+         "Video":"https://www.youtube.com/embed/mDC0OqelBgY"
+      },
+      {
+         "Index":9,
+         "Title":"John Wixted, \"Signal Detection\" SQAB",
+         "Summary":"The theory of signal detection provides a sensible and sometimes enlightening interpretation of a wide range of behavioral phenomena. John Wixted, University ...",
+         "Video":"https://www.youtube.com/embed/-JikS5vVxY4"
+      },
+      {
+         "Index":10,
+         "Title":"James Townsend, \"Chaos\" SQAB",
+         "Summary":"A simple tour of some of the main concepts of chaos which can be understood with only a modicum of quantitative background. James Townsend, Indiana ...",
+         "Video":"https://www.youtube.com/embed/6vd1gH4uXwE"
+      },
+      {
+         "Index":11,
+         "Title":"Ben Williams, \"Behavioral Analysis and Medical Strategy: A Case In \"Terminal\" Cancer\" SQAB",
+         "Summary":"The problem solving needed to maximize clinical outcomes in medicine would be facilitated by the adaptation of behavior analytic concepts. Ben Williams ...",
+         "Video":"https://www.youtube.com/embed/WPZFajng2nw"
+      },
+      {
+         "Index":12,
+         "Title":"Michael T. Turvey, \"Ecological Psychology: Nonrepresentational Perception and Action\" SQAB",
+         "Summary":"How should the perception and action capabilities of biological systems be understood? Michael T. Turvey, University of Connecticut. May 1999.",
+         "Video":"https://www.youtube.com/embed/PCs9AiC1bkk"
+      },
+      {
+         "Index":13,
+         "Title":"K. Geoffrey White, \"Memory as Discrimination\" SQAB",
+         "Summary":"The temporal distance between an event and later remembering seems to require mediation by a stored representation. Treating remembering as discriminative ...",
+         "Video":"https://www.youtube.com/embed/6zNlsz3dPjA"
+      },
+      {
+         "Index":14,
+         "Title":"William Timberlake, \"Behavior Systems\" SQAB",
+         "Summary":"Behavior system analysis contributes to the prediction and understanding of common phenomena, including: the design of experimental apparatus, constraints ...",
+         "Video":"https://www.youtube.com/embed/zB8iAkCebeo"
+      },
+      {
+         "Index":15,
+         "Title":"Steven Stout, \"Pavlovian Conditioning\" SQAB",
+         "Summary":"Steven Stout, Jacksonville State University. May 2009.",
+         "Video":"https://www.youtube.com/embed/vWDDC2IM7jc"
+      },
+      {
+         "Index":16,
+         "Title":"Murray Sidman, \"The Scientist/ Practitioner in Behavior Analysis: A Case Study\" SQAB",
+         "Summary":"A case study illustrating the importance of experimental science for the practitioner, and practical applications for the experimentalist. Murray Sidman. May 1998.",
+         "Video":"https://www.youtube.com/embed/n6YxnRsU4Bs"
+      },
+      {
+         "Index":17,
+         "Title":"John Staddon, \"Dynamics\" SQAB",
+         "Summary":"The kinds of models likely to be productive for behavior analysis and the implementation of straightforward models of dynamical behavior with spreadsheets.",
+         "Video":"https://www.youtube.com/embed/FueenRvWuWM"
+      },
+      {
+         "Index":18,
+         "Title":"Mia Stephens, \"Exploration, Visualization, and Analysis with JMP\" SQAB",
+         "Summary":"Mia Stephens, JMP with SAS. May 2011.",
+         "Video":"https://www.youtube.com/embed/MAc_91a0f-Q"
+      },
+      {
+         "Index":19,
+         "Title":"Gerald Shook, \"The Behavior Analyst Certification Board and the Behavior Analysis Profession\" SQAB",
+         "Summary":"Behavior Analyst Certification Board Gerald Shook. May 2010.",
+         "Video":"https://www.youtube.com/embed/5EBt8VNJdms"
+      },
+      {
+         "Index":20,
+         "Title":"Alliston Reid, \"Understanding Response Sequences\" SQAB",
+         "Summary":"The development of fundamental tools needed to replace the chaining theory of response sequences. Alliston Reid, Wofford College. May 2003.",
+         "Video":"https://www.youtube.com/embed/PjbDRuhtXIk"
+      },
+      {
+         "Index":21,
+         "Title":"Charles P. Shimp, \"Explicit Methods and Implicit Value in Quantitative Behavioral Models\" SQAB",
+         "Summary":"Discussion of human values. Charles P. Shimp, University of Utah. May 2006.",
+         "Video":"https://www.youtube.com/embed/VvYXycojeuk"
+      },
+      {
+         "Index":22,
+         "Title":"Howard Rachlin, \"Matching\" SQAB",
+         "Summary":"Matching is a theory of choice. It states that all voluntary behavior is really choice behavior and all choice behavior obeys the matching law. Howard Rachlin ...",
+         "Video":"https://www.youtube.com/embed/1DtoEv7iLws"
+      },
+      {
+         "Index":23,
+         "Title":"Allen Neuringer, \"Variability of the Operant\" SQAB",
+         "Summary":"The three concurrent schedule equations of classic matching can be fitted simultaneously to a single data set by minimizing an appropriate combination of ...",
+         "Video":"https://www.youtube.com/embed/9pAmLa0Q1hI"
+      },
+      {
+         "Index":24,
+         "Title":"Amy Odum, \"Delayed Discounting: What, Who, When, Where, Why, and How?\" SQAB",
+         "Summary":"Amy Odum, Utah State University. May 2011.",
+         "Video":"https://www.youtube.com/embed/gprj5-FSXVY"
+      },
+      {
+         "Index":25,
+         "Title":"Tim Shahan, \"Conditioned Reinforcement\" SQAB",
+         "Summary":"Tim Shahan, Utah State University. May 2009.",
+         "Video":"https://www.youtube.com/embed/TTYbMfoXCgM"
+      },
+      {
+         "Index":26,
+         "Title":"M. Christopher Newland, \"Applied Modeling and the Identification of Behavioral Mechanisms of Action\"",
+         "Summary":"How models are selected, applied, and confirmed in research on methylmercury. M. Christopher Newland and Wendy Donlin, Auburn University, May 2006.",
+         "Video":"https://www.youtube.com/embed/LsyqL_mGM6s"
+      },
+      {
+         "Index":27,
+         "Title":"Michael Perone, \"Behavioral Variability: Control, Description, and Analysis\" SQAB",
+         "Summary":"Review and evaluate behavior analysts use of experimental and statistical methods to control, describe, and analyze variability. Michael Perone. May 2004.",
+         "Video":"https://www.youtube.com/embed/e_cNHZyEzlk"
+      },
+      {
+         "Index":28,
+         "Title":"John C. Malone, \"Radical Behaviorism, Part One\" SQAB",
+         "Summary":"Part 1: Radical Behaviorism in the History of Psychological Thought The origins of radical behaviorism can be traced to the presocratics. The conception that ...",
+         "Video":"https://www.youtube.com/embed/G2AMslXztBo"
+      },
+      {
+         "Index":29,
+         "Title":"Jack J. McDowell, \"Uniformity, Chaos, and Complexity: Mining Wolfram's A New Kind of Science\" SQAB",
+         "Summary":"Jack J. McDowell, Emory University. May 2008.",
+         "Video":"https://www.youtube.com/embed/fYFsSyksY7w"
+      },
+      {
+         "Index":30,
+         "Title":"John Nevin, \"Behavioral Momentum\" SQAB",
+         "Summary":"The mass-like aspect of behavior measured as resistance to change may be identified with the traditional construct of response strength. John Nevin, May 1998.",
+         "Video":"https://www.youtube.com/embed/Dc6nNli0FHM"
+      },
+      {
+         "Index":31,
+         "Title":"Joel Myerson, \"Cognitive Aging: A Behavior-Theoretic Approach\" SQAB",
+         "Summary":"Joel Myerson, Washing University in St. Louis, May 2009.",
+         "Video":"https://www.youtube.com/embed/ahh_CammAB4"
+      },
+      {
+         "Index":32,
+         "Title":"James E. Mazur, \"Choice and the Hyperbolic Decay of Reinforcer Strength\" SQAB",
+         "Summary":"A review of how a hyperbolic delay equation can account for choice in self-control situations. James E. Mazur, Southern Connecticut State University. May 2004.",
+         "Video":"https://www.youtube.com/embed/sU1Qub4NVhc"
+      },
+      {
+         "Index":33,
+         "Title":"Jack J. McDowell, \"Fitting Equations to Data\" SQAB",
+         "Summary":"The three concurrent schedule equations of classic matching can be fitted simultaneously to a single data set by minimizing an appropriate combination of ...",
+         "Video":"https://www.youtube.com/embed/NiGc4TLutLU"
+      },
+      {
+         "Index":34,
+         "Title":"M. Jackson Marr, \"What Good is Mathematics? Modeling in Behavior Analysis.\" SQAB",
+         "Summary":"A general overview of mathematical modeling in behavior analysis. M. Jackson Marr, Emory University. May 2004.",
+         "Video":"https://www.youtube.com/embed/DPuvxbmhmvY"
+      },
+      {
+         "Index":35,
+         "Title":"John C. Malone \"Radical Behaviorism; Part Two\" SQAB",
+         "Summary":"Part 2: Radical Behaviorism is All Around Us The radical behavioral orientation appears in modern legal theory, in advertising, in social cognitive theory, ...",
+         "Video":"https://www.youtube.com/embed/znL4-xb-slY"
+      },
+      {
+         "Index":36,
+         "Title":"Robert MacPhail, \"Environment, Behavior, and Pollution: Quantifying Risk\" SQAB",
+         "Summary":"Robert MacPhail, EPA. May 2010.",
+         "Video":"https://www.youtube.com/embed/1KhsneicuxU"
+      },
+      {
+         "Index":37,
+         "Title":"James MacDonall, \"Getting Started in Quantitative Analyses of Behavior\" SQAB",
+         "Summary":"A step-by-step guide on getting started in the quantitative analysis of behavior. James MacDonall, Fordham University. May 2007.",
+         "Video":"https://www.youtube.com/embed/1Eb225KJYHU"
+      },
+      {
+         "Index":38,
+         "Title":"Geoffrey R. Loftus, \"Hypothesis Testing: Curse or Abomination?\" SQAB",
+         "Summary":"The practice of significance testing is inimical to scientific insight, and has almost certainly impeded both empirical and theoretical progress. Geoffrey R. Loftus ...",
+         "Video":"https://www.youtube.com/embed/OpU_0a8q_nM"
+      },
+      {
+         "Index":39,
+         "Title":"Peter R. Killeen, \"The Law of Affect\" SQAB",
+         "Summary":"A reappraisal of Thorndike's law of effect as a valid description. Peter R. Killeen, Arizona State University. May 2007.",
+         "Video":"https://www.youtube.com/embed/sn7KtrBHSKE"
+      },
+      {
+         "Index":40,
+         "Title":"Peter R. Killeen, \"Analyses of Response Times, IRTs, Rts, and ts\" SQAB",
+         "Summary":"A romp through descriptions of behavior featuring machines, distributions, and function with easy to understand conceptual and practical tools. Peter R. Killeen.",
+         "Video":"https://www.youtube.com/embed/2SnSeRV7kz8"
+      },
+      {
+         "Index":41,
+         "Title":"Armando Machado, \"Probability: Basic Ideas, Techniques, and Applications\" SQAB",
+         "Summary":"An introduction to the basic ideas of probability theory with an illustration of their application in a variety of practical situations. Armando Machado, Minho ...",
+         "Video":"https://www.youtube.com/embed/acgDrL_iHuQ"
+      },
+      {
+         "Index":42,
+         "Title":"Peter R. Killeen, \"Timing (Parsing Sagely Rosemary's Time\" SQAB",
+         "Summary":"How do behaviorists parse time? Peter R. Killeen, Arizona State University. May 1999.",
+         "Video":"https://www.youtube.com/embed/sGlGXhSxqD0"
+      },
+      {
+         "Index":43,
+         "Title":"Kennon A. Lattal, \"Facets of Operant Extinction\" SQAB",
+         "Summary":"Kennon A. Lattal, West Virgina University. May 2011.",
+         "Video":"https://www.youtube.com/embed/37ZYHIyri5k"
+      },
+      {
+         "Index":44,
+         "Title":"Alex Kacelnik, \"Facts and Theories in Decision Making: Sturnus Vulgaris vs. Benjamin Franklin SQAB",
+         "Summary":"Alex Kacelnik. University of Oxford. May 1999.",
+         "Video":"https://www.youtube.com/embed/9i3cTHBw6uI"
+      },
+      {
+         "Index":45,
+         "Title":"Steven Hursh, \"Behavioral Economics\" SQAB",
+         "Summary":"Behavioral economics helps to understand the environmental control of the consumption of a wide variety of commodities. Steven Hursh. Science Applications ...",
+         "Video":"https://www.youtube.com/embed/7xgkdQqIO8c"
+      },
+      {
+         "Index":46,
+         "Title":"Peter R. Killeen, \"The St. Petersburg Paradox at 300: Roots, Ramifications, and Resolutions\" SQAB",
+         "Summary":"The relative frequency of realizable events predicts winnings over multiple games and demonstrates the irrelevance of expected value based on limiting ...",
+         "Video":"https://www.youtube.com/embed/fGLwPTygM7Y"
+      },
+      {
+         "Index":47,
+         "Title":"Philip Hineline, \"Aversive Events and Behavior\" SQAB",
+         "Summary":"Aversive events are seen in terms of a continuum of frequency balanced against short-term relations, as with appetitive contingencies.",
+         "Video":"https://www.youtube.com/embed/i8cIGapzgkY"
+      },
+      {
+         "Index":48,
+         "Title":"Randolph Grace, \"Quantification\" (Part 1) SQAB",
+         "Summary":"Inferential statistics, which has long been controversial because it is so easily misunderstood, may be construed as a method for choosing between alternative ...",
+         "Video":"https://www.youtube.com/embed/a41-uuHIllc"
+      },
+      {
+         "Index":49,
+         "Title":"Randolph Grace, \"Introduction to Quantitative Analysis of Behavior\" SQAB",
+         "Summary":"A simple framework for understanding how quantitative analyses may be helpful for behavior analysis.",
+         "Video":"https://www.youtube.com/embed/how8PQbdWYg"
+      },
+      {
+         "Index":50,
+         "Title":"Jennifer Higa, \"Timing\" SQAB",
+         "Summary":"The methods for studying timing, the basic data generated by those methods, and the core set of issues that the results and theories raise about the underlying ...",
+         "Video":"https://www.youtube.com/embed/eVVjU1zqc4w"
+      },
+      {
+         "Index":51,
+         "Title":"Grace Randolph, \"Choice and Value\" SQAB",
+         "Summary":"Complex concurrent-chains procedures provide an opportunity to resolve some important theoretical issues pertaining to choice.",
+         "Video":"https://www.youtube.com/embed/Sabow-1Qo3c"
+      },
+      {
+         "Index":52,
+         "Title":"Grace Randolph, \"Quantification\" (Part 2) SQAB",
+         "Summary":"A review of the model comparison approach to inferential statistics, and a description of some techniques from explanatory data analyses that are useful for ...",
+         "Video":"https://www.youtube.com/embed/aUGbmw9Z66Y"
+      },
+      {
+         "Index":53,
+         "Title":"Gene Heyman, \"The Matching Law\" SQAB",
+         "Summary":"Any given choice situation can be framed so that matching is a form of economic rationality and vice versa.",
+         "Video":"https://www.youtube.com/embed/dUIkE32JuJE"
+      },
+      {
+         "Index":54,
+         "Title":"Michael Davison, \"What Reinforcers Do to Behavior\" SQAB",
+         "Summary":"Recent research has shown reproducible effects of reinforcers occurring seconds and minutes after behavior. This tutorial discusses what these results mean for ...",
+         "Video":"https://www.youtube.com/embed/qYFKWTAJjEo"
+      },
+      {
+         "Index":55,
+         "Title":"Leonard Green, \"The Discounting Function\" SQAB",
+         "Summary":"Many choice situations, including those involving self-control and reversals in preference, are viewed in terms of the discounting of delayed and probabilistic ...",
+         "Video":"https://www.youtube.com/embed/CDto8pAyG5M"
+      },
+      {
+         "Index":56,
+         "Title":"Gregory Galbicka, \"Response Shaping and Percentile Schedules\" SQAB",
+         "Summary":"Percentile schedules can be used to generate a consistent arrangement between responses and reinforcement.",
+         "Video":"https://www.youtube.com/embed/D8BvTrIeUOc"
+      },
+      {
+         "Index":57,
+         "Title":"Michael Davison, \"What 'Reinforcers' Do to Behavior, II: Signposts to the Future\" SQAB",
+         "Summary":"",
+         "Video":"https://www.youtube.com/embed/rBJ2RWrKZFU"
+      },
+      {
+         "Index":58,
+         "Title":"Stephen Fowler, \"Measurement of the Behavior Stream\" SQAB",
+         "Summary":"",
+         "Video":"https://www.youtube.com/embed/05HOzQ3RRKk"
+      },
+      {
+         "Index":59,
+         "Title":"Robert Cook, \"Stimulus Control\" SQAB",
+         "Summary":"An overview of stimulus control, its fundamental methods, established principles and mechanisms, and outstanding problems and issues.",
+         "Video":"https://www.youtube.com/embed/RlmVnBgt6BQ"
+      },
+      {
+         "Index":60,
+         "Title":"Edmund Fantino, \"Delay Reduction\" SQAB",
+         "Summary":"The value of an outcome is best gauged by its improvement over the prior situation.",
+         "Video":"https://www.youtube.com/embed/SrgUvWU1y_U"
+      },
+      {
+         "Index":61,
+         "Title":"John W. Donahoe, \"Neural Networks\" SQAB",
+         "Summary":"The tutorial has three goals: (1) to indicate the place of neural-network simulation in the experimental analysis of behavior (EAB), (2) to survey various ...",
+         "Video":"https://www.youtube.com/embed/MRIFOluV0oE"
+      },
+      {
+         "Index":62,
+         "Title":"John Wixted, \"Classical Signal Detection Theory: ROC Analysis\" SQAB",
+         "Summary":"Signal-detection theory has been around for decades, but its ability to help one think productively about a wide array of issues is not as widely appreciated as it ...",
+         "Video":"https://www.youtube.com/embed/c5-sGohC9mY"
+      },
+      {
+         "Index":63,
+         "Title":"Peter Balsam, \"Part 1: Pavlovian Conditioning\" SQAB",
+         "Summary":"Pavlovian conditioning plays an essential role in many behaviors including feeding, reproduction, drug addiction and defense. The tutorial serves as an ...",
+         "Video":"https://www.youtube.com/embed/KlPSUcySzRk"
+      },
+      {
+         "Index":64,
+         "Title":"Peter Balsam \"Time, Uncertainty and Anticipation\" SQAB",
+         "Summary":"Formal information theory applied to temporal signals provides an accurate description of the speed with which anticipation develops. Times may be the ...",
+         "Video":"https://www.youtube.com/embed/iIWB5kbkEAk"
+      },
+      {
+         "Index":65,
+         "Title":"A. Charles Catania, \"Creating Artificial Behavior: A Tutorial on Modeling\" SQAB",
+         "Summary":"Using Skinner's reflex reserve model as an example, several recommendations about modeling are discussed.",
+         "Video":"https://www.youtube.com/embed/mchH3jLNhxI"
+      },
+      {
+         "Index":66,
+         "Title":"Russell Church, \"Simulation of Quantitative Models of Behavior\" SQAB",
+         "Summary":"This tutorial focuses on how to simulate data and why.",
+         "Video":"https://www.youtube.com/embed/Pocos-heaAA"
+      },
+      {
+         "Index":67,
+         "Title":"Daniel Cerutti, \"Temporal Regulation of Choice\" SQAB",
+         "Summary":"Behavior on concurrent schedules can be understood best as a temporal-stochastic process. Animals on choice tasks learn when to respond and where to ...",
+         "Video":"https://www.youtube.com/embed/o60qrhwg-OM"
+      },
+      {
+         "Index":68,
+         "Title":"Peter Balsam, \"Pavlovian Conditioning, Part 2: Associations, Accumulators and Cartographers\" SQAB",
+         "Summary":"Three classes of models have been proposed as explanations for Pavlovian conditioning. These approaches posit that either associations, quantitative ...",
+         "Video":"https://www.youtube.com/embed/PzfcPH_zLO0"
+      },
+      {
+         "Index":69,
+         "Title":"Neville Blampied \"Single-Case Research: Use Tools for 21st Century Applied Science SQAB",
+         "Summary":"Neville Blampied. University of Caterbury. May 2011.",
+         "Video":"https://www.youtube.com/embed/LcU6nhiTse4"
+      },
+      {
+         "Index":70,
+         "Title":"Gordon M. Burghardt, \"Evolution, Behavioral Variation, and Plasticity\" SQAB",
+         "Summary":"An overview of the basics of modern methods used to understand behavioral diversity and the processes of behavioral evolution in natural populations, ...",
+         "Video":"https://www.youtube.com/embed/qNHX5t6dkr4"
+      },
+      {
+         "Index":71,
+         "Title":"Marc Branch \"Behavioral Pharmacology\" SQAB",
+         "Summary":"The history and origins of behavioral pharmacology, and the logic behind the field are outlined.. Examples are presented of how behavioral variables can modify ...",
+         "Video":"https://www.youtube.com/embed/Uyz3vRhlxZQ"
+      },
+      {
+         "Index":72,
+         "Title":"William Baum \"Choice\" SQAB",
+         "Summary":"Behavior analysis offers insight into choice and control as the terms are used in the everyday culture. Choice is best seen as a pattern of behavior through time.",
+         "Video":"https://www.youtube.com/embed/PJ1aKLptj1Y"
+      },
+      {
+         "Index":73,
+         "Title":"William Baum \"Dynamics of Choice\" SQAB",
+         "Summary":"William Baum. May 2009.",
+         "Video":"https://www.youtube.com/embed/6UBvYhFYn3s"
+      },
+      {
+         "Index":74,
+         "Title":"Paul T. Andronis, \"Evolution\" SQAB",
+         "Summary":"Everything a behavior analyst needs to know about modern models of evolution, the general paradigm, and the specifics. Paul T. Andronis. Northern Michigan ...",
+         "Video":"https://www.youtube.com/embed/yD2J6cdF_mQ"
+      }
+   ]
+}
