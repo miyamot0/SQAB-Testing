@@ -7,6 +7,7 @@ import Footer from './components/layouts/Footer';
 import BehavioralProcesses from './components/pages/BehavioralProcesses';
 import HomePage from './components/pages/HomePage';
 import Conference from './components/pages/Conference';
+import ExecutiveBoard from './components/pages/ExecutiveBoard';
 import Programs from './components/pages/Programs';
 import Registration from './components/pages/Registration';
 import Submissions from './components/pages/Submissions';
@@ -26,6 +27,7 @@ class App extends Component {
             <Route exact path='/Programs' component={Programs} />
             <Route path='/BehavioralProcesses' component={BehavioralProcesses} />
             <Route path='/Conference' component={Conference} />
+            <Route path='/ExecutiveBoard' component={ExecutiveBoard} />
             <Route path='/Registration' component={Registration} />
             <Route path='/Submissions' component={Submissions} />
             <Route path='/Tutorials' component={Tutorials} />

@@ -37,7 +37,7 @@ const Navbar = () => {
                             </li>
 
                             <li><Link to="/BehavioralProcesses">Behavioral Processes </Link></li>
-                            <li><Link to="/Board">Executive Board </Link></li>
+                            <li><Link to="/ExecutiveBoard">Executive Board </Link></li>
 
                             <li><a href="#" data-toggle="modal" data-target="#privacyModal">Privacy </a></li>
                             <li><a href="#" data-toggle="modal" data-target="#listservModal">Listserv </a></li>
