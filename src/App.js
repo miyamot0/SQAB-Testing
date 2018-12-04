@@ -25,18 +25,19 @@ class App extends Component {
           <Navbar />
 
           <Switch>
-            <Route exact path='/' component={HomePage} />
-            <Route exact path='/Programs' component={Programs} />
-            <Route path='/BehavioralProcesses' component={BehavioralProcesses} />
-            <Route path='/Conference' component={Conference} />
-            <Route path='/ExecutiveBoard' component={ExecutiveBoard} />
-            <Route path='/Registration' component={Registration} />
-            <Route path='/Resources' component={Resources} />
-            <Route path='/Submissions' component={Submissions} />
-            <Route path='/Tutorials' component={Tutorials} />
+            <Route exact path='/' component={ HomePage } />
+            <Route exact path='/Programs' component={ Programs } />
+            <Route path='/BehavioralProcesses' component={ BehavioralProcesses } />
+            <Route path='/Conference' component={ Conference } />
+            <Route path='/ExecutiveBoard' component={ ExecutiveBoard } />
+            <Route path='/Registration' component={ Registration } />
+            <Route path='/Resources' component={ Resources } />
+            <Route path='/Submissions' component={ Submissions } />
+            <Route path='/Tutorials' component={ Tutorials } />
 
-            <Route path='/DemandCurveAnalyzer' component={DemandCurveAnalyzer} />
-            <Route path='/DiscountingModelSelector' component={DiscountingModelSelector} />
+            {/* These are interactive analysis tools */ }
+            <Route path='/DemandCurveAnalyzer' component={ DemandCurveAnalyzer } />
+            <Route path='/DiscountingModelSelector' component={ DiscountingModelSelector } />
 
           </Switch>
 

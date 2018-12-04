@@ -1,3 +1,11 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.suggest.completeFunctionCalls": true
 }
