@@ -7,7 +7,10 @@ const Navbar = () => {
             <div className="navbar navbar-default">
                 <div className="container-fluid">
                     <div className="navbar-header">
-                        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <button type="button"
+                            className="navbar-toggle"
+                            data-toggle="collapse"
+                            data-target=".navbar-responsive-collapse">
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
@@ -17,7 +20,10 @@ const Navbar = () => {
                     <div className="navbar-collapse collapse navbar-responsive-collapse">
                         <ul className="nav navbar-nav">
                             <li className="dropdown">
-                                <a href="#" data-target="#" className="dropdown-toggle" data-toggle="dropdown">Conference<b className="caret"></b></a>
+                                <a href="#"
+                                    data-target="#"
+                                    className="dropdown-toggle"
+                                    data-toggle="dropdown">Conference<b className="caret"></b></a>
                                 <ul className="dropdown-menu">
                                     <li><Link to="/Conference">Annual Conference </Link></li>
                                     <li><Link to="/Tutorials">Recorded Tutorials </Link></li>
@@ -28,7 +34,10 @@ const Navbar = () => {
                             </li>
 
                             <li className="dropdown">
-                                <a href="#" data-target="#" className="dropdown-toggle" data-toggle="dropdown">Resources<b className="caret"></b></a>
+                                <a href="#"
+                                    data-target="#"
+                                    className="dropdown-toggle"
+                                    data-toggle="dropdown">Resources<b className="caret"></b></a>
                                 <ul className="dropdown-menu">
                                     <li><Link to="/DemandCurveAnalyzer">Demand Curve Analyzer </Link></li>
                                     <li><Link to="/DiscountingModelSelector">Discounting Model Selector </Link></li>
@@ -39,8 +48,12 @@ const Navbar = () => {
                             <li><Link to="/BehavioralProcesses">Behavioral Processes </Link></li>
                             <li><Link to="/ExecutiveBoard">Executive Board </Link></li>
 
-                            <li><a href="#" data-toggle="modal" data-target="#privacyModal">Privacy </a></li>
-                            <li><a href="#" data-toggle="modal" data-target="#listservModal">Listserv </a></li>
+                            <li><a href="#"
+                                data-toggle="modal"
+                                data-target="#privacyModal">Privacy </a></li>
+                            <li><a href="#"
+                                data-toggle="modal"
+                                data-target="#listservModal">Listserv </a></li>
                         </ul>
                     </div>
                 </div>

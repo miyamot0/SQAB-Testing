@@ -15,6 +15,7 @@ import Submissions from './components/pages/Submissions';
 import Tutorials from './components/pages/Tutorials';
 
 import DemandCurveAnalyzer from './components/pages/DemandCurveAnalyzer';
+import DiscountingModelSelector from './components/pages/DiscountingModelSelector';
 
 class App extends Component {
   render() {
@@ -35,6 +36,8 @@ class App extends Component {
             <Route path='/Tutorials' component={Tutorials} />
 
             <Route path='/DemandCurveAnalyzer' component={DemandCurveAnalyzer} />
+            <Route path='/DiscountingModelSelector' component={DiscountingModelSelector} />
+
           </Switch>
 
           <Footer />
