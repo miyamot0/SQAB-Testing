@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 
+import BehavioralProcesses from './components/pages/BehavioralProcesses';
 import HomePage from './components/pages/HomePage';
 import Conference from './components/pages/Conference';
 import Programs from './components/pages/Programs';
@@ -19,20 +20,21 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Navbar />
-          
-          <Switch>
-            <Route exact path='/' component = { HomePage } />
-            <Route exact path='/Programs' component = { Programs } />            
-            <Route path='/Conference' component = { Conference } />
-            <Route path='/Registration' component = { Registration } />
-            <Route path='/Submissions' component = { Submissions } />
-            <Route path='/Tutorials' component = { Tutorials } />
 
-            <Route path='/DemandCurveAnalyzer' component = { DemandCurveAnalyzer } />
+          <Switch>
+            <Route exact path='/' component={HomePage} />
+            <Route exact path='/Programs' component={Programs} />
+            <Route path='/BehavioralProcesses' component={BehavioralProcesses} />
+            <Route path='/Conference' component={Conference} />
+            <Route path='/Registration' component={Registration} />
+            <Route path='/Submissions' component={Submissions} />
+            <Route path='/Tutorials' component={Tutorials} />
+
+            <Route path='/DemandCurveAnalyzer' component={DemandCurveAnalyzer} />
           </Switch>
 
           <Footer />
-        </div> 
+        </div>
       </BrowserRouter>
     );
   }
