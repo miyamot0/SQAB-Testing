@@ -10,6 +10,7 @@ import Conference from './components/pages/Conference';
 import ExecutiveBoard from './components/pages/ExecutiveBoard';
 import Programs from './components/pages/Programs';
 import Registration from './components/pages/Registration';
+import Resources from './components/pages/Resources';
 import Submissions from './components/pages/Submissions';
 import Tutorials from './components/pages/Tutorials';
 
@@ -29,6 +30,7 @@ class App extends Component {
             <Route path='/Conference' component={Conference} />
             <Route path='/ExecutiveBoard' component={ExecutiveBoard} />
             <Route path='/Registration' component={Registration} />
+            <Route path='/Resources' component={Resources} />
             <Route path='/Submissions' component={Submissions} />
             <Route path='/Tutorials' component={Tutorials} />
 
