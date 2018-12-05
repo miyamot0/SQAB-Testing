@@ -59,8 +59,6 @@ class Submissions extends Component {
             time: datetime
         };
 
-        console.log( data );
-
         fire.database().ref( 'SQAB2019' ).push( data );
     }
 
