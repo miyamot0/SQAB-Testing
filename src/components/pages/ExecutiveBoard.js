@@ -5,51 +5,53 @@ class ExecutiveBoard extends Component {
     render() {
         var persons = boardData.Officers;
 
-        const officerLinks = persons.map((officer) => {
+        const officerLinks = persons.map( ( officer ) => {
             return (
-                <a href={officer.Role === "Webmaster" ? "mailto:" + officer.Contact : null}
-                    className="lead"
-                    key={officer.Name}>
-                    {officer.Name + " (" + officer.Role + ")"}
-                    <br /><br /></a>
+                officer.Role === "Webmaster" ?
+                    <a href={ "mailto:" + officer.Contact }
+                        className="lead"
+                        key={ officer.Name }>
+                        { officer.Name + " (" + officer.Role + ")" }
+                        <br /><br /></a> :
+                    <p className="lead"
+                        key={ officer.Name }>
+                        { officer.Name + " (" + officer.Role + ")" }
+                        <br /><br /></p>
             )
-        });
+        } );
 
         persons = boardData.Students;
 
-        const studentLinks = persons.map((officer) => {
+        const studentLinks = persons.map( ( officer ) => {
             return (
-                <a href={officer.Role === "Webmaster" ? "mailto:" + officer.Contact : null}
-                    className="lead"
-                    key={officer.Name}>
-                    {officer.Name + " (" + officer.Role + ")"}
-                    <br /><br /></a>
+                <p className="lead"
+                    key={ officer.Name }>
+                    { officer.Name + " (" + officer.Role + ")" }
+                    <br /><br /></p>
             )
-        });
+        } );
 
         persons = boardData.PastDirectors;
 
-        const prevDirectorLinks = persons.map((officer) => {
+        const prevDirectorLinks = persons.map( ( officer ) => {
             return (
-                <a href={officer.Role === "Webmaster" ? "mailto:" + officer.Contact : null}
-                    className="lead"
-                    key={officer.Name}>
-                    {officer.Name + " (" + officer.Role + ")"}
-                    <br /><br /></a>
+                <p className="lead"
+                    key={ officer.Name }>
+                    { officer.Name + " (" + officer.Role + ")" }
+                    <br /><br /></p>
             )
-        });
+        } );
 
         persons = boardData.PastPresident;
 
-        const prevPresidents = persons.map((officer) => {
+        const prevPresidents = persons.map( ( officer ) => {
             return (
-                <a href={officer.Role === "Webmaster" ? "mailto:" + officer.Contact : null}
-                    className="lead"
-                    key={officer.Name}>
-                    {officer.Name}
-                    <br /><br /></a>
+                <p className="lead"
+                    key={ officer.Name }>
+                    { officer.Name }
+                    <br /><br /></p>
             )
-        });
+        } );
 
         return (
             <div className="container">
@@ -73,14 +75,14 @@ class ExecutiveBoard extends Component {
                     <div className="col-md-6">
                         <div id="boardDiv" className="well">
                             <h2 className="h2-responsive">Current Board</h2><br />
-                            {officerLinks}
+                            { officerLinks }
                         </div>
                     </div>
 
                     <div className="col-md-6">
                         <div id="studentDiv" className="well">
                             <h2 className="h2-responsive">Current Student Positions</h2><br />
-                            {studentLinks}
+                            { studentLinks }
                         </div>
                     </div>
                 </div>
@@ -95,14 +97,14 @@ class ExecutiveBoard extends Component {
                     <div className="col-md-6">
                         <div id="prevBoardDiv" className="well">
                             <h2 className="h2-responsive">Past Board</h2><br />
-                            {prevDirectorLinks}
+                            { prevDirectorLinks }
                         </div>
                     </div>
 
                     <div className="col-md-6">
                         <div id="prevPresidentsDiv" className="well">
                             <h2 className="h2-responsive">Past Presidents</h2><br />
-                            {prevPresidents}
+                            { prevPresidents }
                         </div>
                     </div>
                 </div>
