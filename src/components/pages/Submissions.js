@@ -9,7 +9,8 @@ class Submissions extends Component {
             posterTitle: "",
             authorEmail: "",
             abstractText: "",
-            authorList: ""
+            authorList: "",
+            disabled: true
         };
 
         this.handleInputChange = this.handleInputChange.bind( this );
@@ -80,7 +81,7 @@ class Submissions extends Component {
                         <div className="jumbotron">
                             <h2 className="h2-responsive">Submissions for Annual Conference</h2>
                             <br />
-                            <p className="lead">Submissions for the annual conference (e.g., posters, papers) can be submitted through an online portal. Information specific to submitting each type of work is provided below.</p>
+                            <p className="lead">Submissions for the annual conference (e.g., posters, papers) can be submitted through the form included below. Instructions for submitting a poster to be considered for SQAB 2019 are presented below.</p>
                         </div>
                     </div>
                 </div>
@@ -166,7 +167,10 @@ class Submissions extends Component {
                                         rows="5" />
                                 </div>
 
-                                <input type="submit" value="Submit" className="btn btn-primary btn-block btn-raised" />
+                                <input type="submit"
+                                    value={ this.state.disabled ? "Submissions Closed" : "Submit" }
+                                    disabled={ this.state.disabled }
+                                    className="btn btn-primary btn-block btn-raised" />
 
                             </form>
                         </div>
