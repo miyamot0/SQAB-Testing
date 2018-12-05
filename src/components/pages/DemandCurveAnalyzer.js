@@ -21,30 +21,30 @@ function defaultChartData() {
     }
 }
 
-function getExponentialProjection(x, obj) {
-    var k = (obj.FitK) ? obj.Params[2] : obj.SetK;
+function getExponentialProjection( x, obj ) {
+    var k = ( obj.FitK ) ? obj.Params[ 2 ] : obj.SetK;
 
-    return Math.pow(10, (Math.log10(obj.Params[0]) + k * (Math.exp(-obj.Params[1] * obj.Params[0] * x) - 1)));
+    return Math.pow( 10, ( Math.log10( obj.Params[ 0 ] ) + k * ( Math.exp( -obj.Params[ 1 ] * obj.Params[ 0 ] * x ) - 1 ) ) );
 }
 
-function getExponentiatedProjection(x, obj) {
-    var k = (obj.FitK) ? obj.Params[2] : obj.SetK;
+function getExponentiatedProjection( x, obj ) {
+    var k = ( obj.FitK ) ? obj.Params[ 2 ] : obj.SetK;
 
-    return obj.Params[0] * Math.pow(10, (k * (Math.exp(-obj.Params[1] * obj.Params[0] * x) - 1)));
+    return obj.Params[ 0 ] * Math.pow( 10, ( k * ( Math.exp( -obj.Params[ 1 ] * obj.Params[ 0 ] * x ) - 1 ) ) );
 }
 
 class DemandCurveAnalyzer extends Component {
-    constructor(props) {
-        super(props);
+    constructor ( props ) {
+        super( props );
 
         this.hotReference = React.createRef();
 
         this.state = {
             settings: {
-                data: [["", ""], ["", ""], ["", ""],
-                ["", ""], ["", ""], ["", ""],
-                ["", ""], ["", ""], ["", ""]],
-                colHeaders: ['Price/Unit Price', 'Consumption'],
+                data: [ [ "", "" ], [ "", "" ], [ "", "" ],
+                [ "", "" ], [ "", "" ], [ "", "" ],
+                [ "", "" ], [ "", "" ], [ "", "" ] ],
+                colHeaders: [ 'Price/Unit Price', 'Consumption' ],
                 rowHeaders: false,
                 stretchH: "all",
                 columnSorting: false,
@@ -70,7 +70,7 @@ class DemandCurveAnalyzer extends Component {
                     fontColor: "black"
                 },
                 scales: {
-                    xAxes: [{
+                    xAxes: [ {
                         titleFontColor: "black",
                         scaleLabel: {
                             display: true,
@@ -85,22 +85,22 @@ class DemandCurveAnalyzer extends Component {
                         ticks: {
                             maxRotation: 90,
                             minRotation: 90,
-                            callback: function (value, index, values) {
+                            callback: function ( value, index, values ) {
                                 var mValue = value.toString();
 
-                                var isValid = /^[01]*$/.test(mValue);
-                                var isValid2 = (value === 0.1 || value === 0.01 || value === 0.001);
+                                var isValid = /^[01]*$/.test( mValue );
+                                var isValid2 = ( value === 0.1 || value === 0.01 || value === 0.001 );
 
-                                if (isValid || isValid2) {
-                                    return Number(mValue);
+                                if ( isValid || isValid2 ) {
+                                    return Number( mValue );
                                 }
                                 else {
                                     return null;
                                 }
                             }
                         }
-                    }],
-                    yAxes: [{
+                    } ],
+                    yAxes: [ {
                         display: true,
                         scaleLabel: {
                             display: true,
@@ -110,13 +110,13 @@ class DemandCurveAnalyzer extends Component {
                         ticks: {
                             min: 0.1,
                             fontColor: "black",
-                            callback: function (value, index, values) {
+                            callback: function ( value, index, values ) {
                                 var mValue = value.toString();
-                                var isValid = /^[01]*$/.test(mValue);
-                                var isValid2 = (value === 0.1 || value === 0.01 || value === 0.001);
+                                var isValid = /^[01]*$/.test( mValue );
+                                var isValid2 = ( value === 0.1 || value === 0.01 || value === 0.001 );
 
-                                if (isValid || isValid2) {
-                                    return Number(mValue);
+                                if ( isValid || isValid2 ) {
+                                    return Number( mValue );
                                 }
                                 else {
                                     return null;
@@ -127,7 +127,7 @@ class DemandCurveAnalyzer extends Component {
                         gridLines: {
                             display: false
                         }
-                    }]
+                    } ]
                 },
                 showTooltips: false,
                 elements: {
@@ -141,7 +141,7 @@ class DemandCurveAnalyzer extends Component {
                 maintainAspectRatio: false
             },
             data: defaultChartData(),
-            worker: new Worker('/js/worker_demand.js'),
+            worker: new Worker( '/js/worker_demand.js' ),
             isBusy: false,
             canSubmit: true,
             submitText: "Fit Models",
@@ -157,34 +157,34 @@ class DemandCurveAnalyzer extends Component {
             showK: false,
         }
 
-        this.state.worker.addEventListener("message", obj => {
-            this.handleWorkerOutput(obj);
-        });
+        this.state.worker.addEventListener( "message", obj => {
+            this.handleWorkerOutput( obj );
+        } );
 
     }
 
-    setDefaultValues(event) {
-        this.setState({
+    setDefaultValues( event ) {
+        this.setState( {
             settings: {
                 data: [
-                    ["0.0", "1000"],
-                    ["0.5", "1000"],
-                    ["1.0", "1000"],
-                    ["1.5", "800"],
-                    ["2.0", "800"],
-                    ["2.5", "700"],
-                    ["3.0", "600"],
-                    ["4.0", "500"],
-                    ["5.0", "400"],
-                    ["10.0", "200"],
-                    ["15.0", "100"]
+                    [ "0.0", "1000" ],
+                    [ "0.5", "1000" ],
+                    [ "1.0", "1000" ],
+                    [ "1.5", "800" ],
+                    [ "2.0", "800" ],
+                    [ "2.5", "700" ],
+                    [ "3.0", "600" ],
+                    [ "4.0", "500" ],
+                    [ "5.0", "400" ],
+                    [ "10.0", "200" ],
+                    [ "15.0", "100" ]
                 ]
             }
-        });
+        } );
     }
 
     constructExponentialChart() {
-        this.setState({
+        this.setState( {
             options: {
                 layout: {
                     padding: {
@@ -201,7 +201,7 @@ class DemandCurveAnalyzer extends Component {
                     fontColor: "black"
                 },
                 scales: {
-                    xAxes: [{
+                    xAxes: [ {
                         titleFontColor: "black",
                         scaleLabel: {
                             display: true,
@@ -216,23 +216,23 @@ class DemandCurveAnalyzer extends Component {
                         ticks: {
                             maxRotation: 90,
                             minRotation: 90,
-                            callback: function (value, index, values) {
+                            callback: function ( value, index, values ) {
                                 var mValue = value.toString();
 
-                                var isValid = /^[01]*$/.test(mValue);
+                                var isValid = /^[01]*$/.test( mValue );
 
-                                var isValid2 = (value === 0.1 || value === 0.01 || value === 0.001);
+                                var isValid2 = ( value === 0.1 || value === 0.01 || value === 0.001 );
 
-                                if (isValid || isValid2) {
-                                    return Number(mValue);
+                                if ( isValid || isValid2 ) {
+                                    return Number( mValue );
                                 }
                                 else {
                                     return null;
                                 }
                             }
                         }
-                    }],
-                    yAxes: [{
+                    } ],
+                    yAxes: [ {
                         display: true,
                         scaleLabel: {
                             display: true,
@@ -242,15 +242,15 @@ class DemandCurveAnalyzer extends Component {
                         ticks: {
                             min: 0.1,
                             fontColor: "black",
-                            callback: function (value, index, values) {
+                            callback: function ( value, index, values ) {
                                 var mValue = value.toString();
 
-                                var isValid = /^[01]*$/.test(mValue);
+                                var isValid = /^[01]*$/.test( mValue );
 
-                                var isValid2 = (value === 0.1 || value === 0.01 || value === 0.001);
+                                var isValid2 = ( value === 0.1 || value === 0.01 || value === 0.001 );
 
-                                if (isValid || isValid2) {
-                                    return Number(mValue);
+                                if ( isValid || isValid2 ) {
+                                    return Number( mValue );
                                 }
                                 else {
                                     return null;
@@ -261,7 +261,7 @@ class DemandCurveAnalyzer extends Component {
                         gridLines: {
                             display: false
                         }
-                    }]
+                    } ]
                 },
                 showTooltips: false,
                 elements: {
@@ -274,11 +274,11 @@ class DemandCurveAnalyzer extends Component {
                 },
                 maintainAspectRatio: false
             }
-        })
+        } )
     }
 
     constructExponentiatedChart() {
-        this.setState({
+        this.setState( {
             options: {
                 layout: {
                     padding: {
@@ -295,7 +295,7 @@ class DemandCurveAnalyzer extends Component {
                     fontColor: "black"
                 },
                 scales: {
-                    xAxes: [{
+                    xAxes: [ {
                         titleFontColor: "black",
                         scaleLabel: {
                             display: true,
@@ -311,23 +311,23 @@ class DemandCurveAnalyzer extends Component {
                             beginAtZero: true,
                             maxRotation: 90,
                             minRotation: 90,
-                            callback: function (value, index, values) {
+                            callback: function ( value, index, values ) {
                                 var mValue = value.toString();
 
-                                var isValid = /^[01]*$/.test(mValue);
+                                var isValid = /^[01]*$/.test( mValue );
 
-                                var isValid2 = (value === 0.1 || value === 0.01 || value === 0.001);
+                                var isValid2 = ( value === 0.1 || value === 0.01 || value === 0.001 );
 
-                                if (isValid || isValid2) {
-                                    return Number(mValue);
+                                if ( isValid || isValid2 ) {
+                                    return Number( mValue );
                                 }
                                 else {
                                     return null;
                                 }
                             }
                         }
-                    }],
-                    yAxes: [{
+                    } ],
+                    yAxes: [ {
                         display: true,
                         scaleLabel: {
                             display: true,
@@ -342,7 +342,7 @@ class DemandCurveAnalyzer extends Component {
                         gridLines: {
                             display: false
                         }
-                    }]
+                    } ]
                 },
                 showTooltips: false,
                 elements: {
@@ -355,11 +355,11 @@ class DemandCurveAnalyzer extends Component {
                 },
                 maintainAspectRatio: false
             }
-        })
+        } )
     }
 
     clearChart() {
-        this.setState({
+        this.setState( {
             data: {
                 datasets: [
                     {
@@ -423,17 +423,17 @@ class DemandCurveAnalyzer extends Component {
                     }
                 ]
             }
-        })
+        } )
     }
 
-    isNumeric(value) {
-        return typeof (value) === 'number';
+    isNumeric( value ) {
+        return typeof ( value ) === 'number';
     }
 
-    handleWorkerOutput(obj) {
-        if (obj.data.done) {
-            const resultsTitle = document.getElementById('resultsTitle');
-            const resultsBody = document.getElementById('resultsBody');
+    handleWorkerOutput( obj ) {
+        if ( obj.data.done ) {
+            const resultsTitle = document.getElementById( 'resultsTitle' );
+            const resultsBody = document.getElementById( 'resultsBody' );
 
             var mPrices = obj.data.x.slice();
             var mConsumption = obj.data.y.slice();
@@ -442,106 +442,106 @@ class DemandCurveAnalyzer extends Component {
             mPointsObject.label = "Raw Data";
             mPointsObject.data = [];
 
-            var lowestPrice = Math.min(...mPrices)
-            var mFinalPrice = Math.max(...mPrices)
+            var lowestPrice = Math.min( ...mPrices )
+            var mFinalPrice = Math.max( ...mPrices )
 
             var mPrice;
 
             // Deep copy
-            const dataSetCopy = this.state.data.datasets.slice(0);
+            const dataSetCopy = this.state.data.datasets.slice( 0 );
 
-            const demandCopy = dataSetCopy[0].data.slice(0);
-            const outputCopy = dataSetCopy[1].data.slice(0);
-            const rawCopy = dataSetCopy[2].data.slice(0);
+            const demandCopy = dataSetCopy[ 0 ].data.slice( 0 );
+            const outputCopy = dataSetCopy[ 1 ].data.slice( 0 );
+            const rawCopy = dataSetCopy[ 2 ].data.slice( 0 );
 
-            for (var j = 0; j < mPrices.length; j++) {
-                mPrice = parseFloat(mPrices[j]);
-                mPrice = (mPrice <= 0) ? 0.01 : mPrice;
+            for ( var j = 0; j < mPrices.length; j++ ) {
+                mPrice = parseFloat( mPrices[ j ] );
+                mPrice = ( mPrice <= 0 ) ? 0.01 : mPrice;
 
-                rawCopy.push({
+                rawCopy.push( {
                     x: mPrice,
-                    y: parseFloat(mConsumption[j])
-                });
+                    y: parseFloat( mConsumption[ j ] )
+                } );
             }
 
-            lowestPrice = (lowestPrice === 0) ? 0.01 : lowestPrice;
+            lowestPrice = ( lowestPrice === 0 ) ? 0.01 : lowestPrice;
 
             var mDelta = 3;
 
-            for (var i = lowestPrice; i <= mFinalPrice;) {
-                if (obj.data.Exponential) {
+            for ( var i = lowestPrice; i <= mFinalPrice; ) {
+                if ( obj.data.Exponential ) {
                     demandCopy.push(
                         {
                             x: i,
-                            y: getExponentialProjection(i, obj.data.results)
-                        });
+                            y: getExponentialProjection( i, obj.data.results )
+                        } );
 
                     outputCopy.push(
                         {
                             x: i,
-                            y: getExponentialProjection(i, obj.data.results) * i
-                        });
+                            y: getExponentialProjection( i, obj.data.results ) * i
+                        } );
 
-                    getExponentialProjection(i, obj.data.results);
+                    getExponentialProjection( i, obj.data.results );
                 }
                 else {
                     demandCopy.push(
                         {
                             x: i,
-                            y: getExponentiatedProjection(i, obj.data.results)
-                        });
+                            y: getExponentiatedProjection( i, obj.data.results )
+                        } );
 
                     outputCopy.push(
                         {
                             x: i,
-                            y: getExponentiatedProjection(i, obj.data.results) * i
-                        });
+                            y: getExponentiatedProjection( i, obj.data.results ) * i
+                        } );
                 }
 
-                if (i >= 0 && i <= 0.1) {
+                if ( i >= 0 && i <= 0.1 ) {
                     i = i + 0.01 / mDelta;
                 }
-                else if (i > 0.1 && i <= 1) {
+                else if ( i > 0.1 && i <= 1 ) {
                     i = i + 0.1 / mDelta;
                 }
-                else if (i > 1 && i <= 10) {
+                else if ( i > 1 && i <= 10 ) {
                     i = i + 1 / mDelta;
                 }
-                else if (i > 10 && i <= 100) {
+                else if ( i > 10 && i <= 100 ) {
                     i = i + 10 / mDelta;
                 }
-                else if (i > 100 && i <= 1000) {
+                else if ( i > 100 && i <= 1000 ) {
                     i = i + 100 / mDelta;
                 }
-                else if (i > 1000 && i <= 10000) {
+                else if ( i > 1000 && i <= 10000 ) {
                     i = i + 1000 / mDelta;
                 }
-                else if (i > 10000 && i <= 100000) {
+                else if ( i > 10000 && i <= 100000 ) {
                     i = i + 10000 / mDelta;
                 }
-                else if (i > 100000 && i <= 1000000) {
+                else if ( i > 100000 && i <= 1000000 ) {
                     i = i + 100000 / mDelta;
                 }
-                else if (i > 1000000 && i <= 10000000) {
+                else if ( i > 1000000 && i <= 10000000 ) {
                     i = i + 1000000 / mDelta;
                 }
             }
 
-            dataSetCopy[0].data = demandCopy;
-            dataSetCopy[1].data = outputCopy;
-            dataSetCopy[2].data = rawCopy;
+            dataSetCopy[ 0 ].data = demandCopy;
+            dataSetCopy[ 1 ].data = outputCopy;
+            dataSetCopy[ 2 ].data = rawCopy;
 
-            var k = (obj.data.results.FitK) ? obj.data.results.Params[2] : obj.data.SetK;
+            var k = ( obj.data.results.FitK ) ? obj.data.results.Params[ 2 ] : obj.data.SetK;
             var approxPmax = obj.data.results.HurshPmax;
             var approxOmax;
 
-            if (obj.data.Exponential) {
-                approxOmax = getExponentialProjection(approxPmax, obj.data.results) * approxPmax;
+            if ( obj.data.Exponential ) {
+                approxOmax = getExponentialProjection( approxPmax, obj.data.results ) * approxPmax;
 
                 resultsTitle.innerHTML = "Exponential Model of Demand";
             }
-            else if (obj.data.Exponentiated) {
-                approxOmax = getExponentiatedProjection(approxPmax, obj.data.results) * approxPmax;
+            else if ( obj.data.Exponentiated ) {
+                approxOmax = getExponentiatedProjection( approxPmax, obj.data.results ) * approxPmax;
 
                 resultsTitle.innerHTML = "Exponentiated Model of Demand";
             }
@@ -549,8 +549,8 @@ class DemandCurveAnalyzer extends Component {
             var innerHtml = "";
 
             innerHtml += "<strong>Results of Fitting:</strong><br>";
-            innerHtml += "<strong>Alpha: </strong> " + obj.data.results.Params[1] + "<br>";
-            innerHtml += "<strong>Q0: </strong> " + obj.data.results.Params[0] + "<br>";
+            innerHtml += "<strong>Alpha: </strong> " + obj.data.results.Params[ 1 ] + "<br>";
+            innerHtml += "<strong>Q0: </strong> " + obj.data.results.Params[ 0 ] + "<br>";
             innerHtml += "<strong>K: </strong> " + k + "<br>";
             innerHtml += "<strong>K Fitted: </strong> " + obj.data.results.FitK + "<br>";
             innerHtml += "<strong>Omaxd: </strong> " + approxOmax + "<br>";
@@ -560,21 +560,21 @@ class DemandCurveAnalyzer extends Component {
 
             resultsBody.innerHTML = innerHtml;
 
-            this.setState({
-                data: Object.assign({}, this.state.data, {
+            this.setState( {
+                data: Object.assign( {}, this.state.data, {
                     datasets: dataSetCopy
-                }),
+                } ),
                 canSubmit: true,
                 isBusy: false,
                 submitText: "Fit Models"
-            });
+            } );
         }
     }
 
-    startCalculation(event) {
-        if (this.state.isBusy) return;
-        if (!window.Worker) {
-            alert("Please use a modern web-broswer with Web-Worker support");
+    startCalculation( event ) {
+        if ( this.state.isBusy ) return;
+        if ( !window.Worker ) {
+            alert( "Please use a modern web-broswer with Web-Worker support" );
 
             return;
         }
@@ -582,18 +582,18 @@ class DemandCurveAnalyzer extends Component {
         var mX = [];
         var mY = [];
 
-        for (var i = 0; i < this.state.settings.data.length; i++) {
-            var temp = this.state.settings.data[i];
+        for ( var i = 0; i < this.state.settings.data.length; i++ ) {
+            var temp = this.state.settings.data[ i ];
 
-            if (this.isNumeric(parseFloat(temp[0])) && this.isNumeric(parseFloat(temp[1]))) {
-                if (parseFloat(temp[0]) < 0) {
-                    alert('Please enter positive prices.');
+            if ( this.isNumeric( parseFloat( temp[ 0 ] ) ) && this.isNumeric( parseFloat( temp[ 1 ] ) ) ) {
+                if ( parseFloat( temp[ 0 ] ) < 0 ) {
+                    alert( 'Please enter positive prices.' );
 
                     return;
                 }
 
-                mX.push(temp[0]);
-                mY.push(temp[1]);
+                mX.push( temp[ 0 ] );
+                mY.push( temp[ 1 ] );
             }
         }
 
@@ -604,17 +604,17 @@ class DemandCurveAnalyzer extends Component {
 
         this.clearChart();
 
-        document.getElementById('resultsTitle').innerHTML = "";
-        document.getElementById('resultsBody').innerHTML = "";
+        document.getElementById( 'resultsTitle' ).innerHTML = "";
+        document.getElementById( 'resultsBody' ).innerHTML = "";
 
         var kText = this.state.customK;
 
-        if (isExponential)
+        if ( isExponential )
             this.constructExponentialChart();
         else
             this.constructExponentiatedChart();
 
-        this.setState({
+        this.setState( {
             canSubmit: false,
             submitText: "Please Wait..."
         }, () => {
@@ -629,30 +629,30 @@ class DemandCurveAnalyzer extends Component {
                     KLogRange: kLogRange,
                     KValue: kValue,
                     SetK: kText
-                });
-        });
+                } );
+        } );
     }
 
-    onChangeFunc(selectName, selectedOption) {
-        this.setState({
-            [selectName]: selectedOption
+    onChangeFunc( selectName, selectedOption ) {
+        this.setState( {
+            [ selectName ]: selectedOption
         }, () => {
-            if (selectName === "selectX") {
-                this.setState({
-                    showX: this.state[selectName] === "Modify Custom"
-                });
+            if ( selectName === "selectX" ) {
+                this.setState( {
+                    showX: this.state[ selectName ] === "Modify Custom"
+                } );
             }
-            else if (selectName === "selectY") {
-                this.setState({
-                    showY: this.state[selectName] === "Modify Custom"
-                });
+            else if ( selectName === "selectY" ) {
+                this.setState( {
+                    showY: this.state[ selectName ] === "Modify Custom"
+                } );
             }
-            else if (selectName === "selectK") {
-                this.setState({
-                    showK: this.state[selectName] === "Set Custom"
-                });
+            else if ( selectName === "selectK" ) {
+                this.setState( {
+                    showK: this.state[ selectName ] === "Set Custom"
+                } );
             }
-        });
+        } );
 
     }
 
@@ -688,20 +688,20 @@ class DemandCurveAnalyzer extends Component {
                                 <br />
 
                                 <div className="read-more">
-                                    <button id="loadSampleBtn" className="btn btn-primary btn-block btn-raised" onClick={(e) => this.setDefaultValues(e)}>Load Sample Data</button>
+                                    <button id="loadSampleBtn" className="btn btn-primary btn-block btn-raised" onClick={ ( e ) => this.setDefaultValues( e ) }>Load Sample Data</button>
                                 </div>
 
                                 <br />
 
-                                <HotTable root="hot" settings={this.state.settings} />
+                                <HotTable root="hot" settings={ this.state.settings } />
 
                                 <div className="form-group">
                                     <label htmlFor="selectModel" className="lead">Select Model:</label>
                                     <select className="form-control"
                                         id="selectModel"
                                         name="selectModel"
-                                        onChange={e => this.onChangeFunc(e.target.name, e.target.value)}
-                                        style={fullHeightStyle}>
+                                        onChange={ e => this.onChangeFunc( e.target.name, e.target.value ) }
+                                        style={ fullHeightStyle }>
                                         <option defaultValue>Exponential Model</option>
                                         <option>Exponentiated Model</option>
                                     </select>
@@ -712,15 +712,15 @@ class DemandCurveAnalyzer extends Component {
                                     <select className="form-control"
                                         id="selectX"
                                         name="selectX"
-                                        onChange={e => this.onChangeFunc(e.target.name, e.target.value)}
-                                        style={fullHeightStyle}>
+                                        onChange={ e => this.onChangeFunc( e.target.name, e.target.value ) }
+                                        style={ fullHeightStyle }>
                                         <option>Drop</option>
                                         <option defaultValue>Keep</option>
                                         <option>Modify Custom</option>
                                     </select>
                                 </div>
 
-                                <div id="customXvalue" className={customXClassName}>
+                                <div id="customXvalue" className={ customXClassName }>
                                     <label htmlFor="customX" className="col-2 col-form-label">Replace Zero Price with:</label>
                                     <div className="col-10">
                                         <input className="form-control"
@@ -728,7 +728,7 @@ class DemandCurveAnalyzer extends Component {
                                             defaultValue="0.01"
                                             id="customX"
                                             name="customX"
-                                            onChange={e => this.onChangeFunc(e.target.name, e.target.value)} />
+                                            onChange={ e => this.onChangeFunc( e.target.name, e.target.value ) } />
                                     </div>
                                 </div>
 
@@ -737,8 +737,8 @@ class DemandCurveAnalyzer extends Component {
                                     <select className="form-control"
                                         id="selectY"
                                         name="selectY"
-                                        onChange={e => this.onChangeFunc(e.target.name, e.target.value)}
-                                        style={fullHeightStyle}>
+                                        onChange={ e => this.onChangeFunc( e.target.name, e.target.value ) }
+                                        style={ fullHeightStyle }>
                                         <option defaultValue>Drop</option>
                                         <option>Keep</option>
                                         <option>Modify to 0.1</option>
@@ -747,7 +747,7 @@ class DemandCurveAnalyzer extends Component {
                                     </select>
                                 </div>
 
-                                <div id="customYvalue" className={customYClassName}>
+                                <div id="customYvalue" className={ customYClassName }>
                                     <label htmlFor="customY" className="col-2 col-form-label">Replace Zero Consumption with:</label>
                                     <div className="col-10">
                                         <input className="form-control"
@@ -755,7 +755,7 @@ class DemandCurveAnalyzer extends Component {
                                             defaultValue="0.01"
                                             id="customY"
                                             name="customY"
-                                            onChange={e => this.onChangeFunc(e.target.name, e.target.value)} />
+                                            onChange={ e => this.onChangeFunc( e.target.name, e.target.value ) } />
                                     </div>
                                 </div>
 
@@ -764,15 +764,15 @@ class DemandCurveAnalyzer extends Component {
                                     <select className="form-control"
                                         id="selectK"
                                         name="selectK"
-                                        onChange={e => this.onChangeFunc(e.target.name, e.target.value)}
-                                        style={fullHeightStyle}>
+                                        onChange={ e => this.onChangeFunc( e.target.name, e.target.value ) }
+                                        style={ fullHeightStyle }>
                                         <option defaultValue>Log range</option>
                                         <option>Fit as parameter</option>
                                         <option>Set Custom</option>
                                     </select>
                                 </div>
 
-                                <div id="customKvalue" className={customKClassName}>
+                                <div id="customKvalue" className={ customKClassName }>
                                     <label htmlFor="customK" className="col-2 col-form-label">Set Scaling Parameter:</label>
                                     <div className="col-10">
                                         <input className="form-control"
@@ -780,7 +780,7 @@ class DemandCurveAnalyzer extends Component {
                                             defaultValue="1.0"
                                             id="customK"
                                             name="customK"
-                                            onChange={e => this.onChangeFunc(e.target.name, e.target.value)} />
+                                            onChange={ e => this.onChangeFunc( e.target.name, e.target.value ) } />
                                     </div>
                                 </div>
 
@@ -788,8 +788,8 @@ class DemandCurveAnalyzer extends Component {
 
                                 <button id="scoreBtn"
                                     className="btn btn-primary btn-block btn-raised"
-                                    disabled={!this.state.canSubmit}
-                                    onClick={(e) => this.startCalculation(e)}> {this.state.submitText} </button>
+                                    disabled={ !this.state.canSubmit }
+                                    onClick={ ( e ) => this.startCalculation( e ) }> { this.state.submitText } </button>
 
                                 <br />
 
@@ -818,12 +818,12 @@ class DemandCurveAnalyzer extends Component {
 
                     <div className="col-md-6">
                         <div className="well">
-                            <div style={chartWrapper}>
-                                <Line data={this.state.data}
-                                    options={this.state.options} />
+                            <div style={ chartWrapper }>
+                                <Line data={ this.state.data }
+                                    options={ this.state.options } />
                             </div>
-                            <h3 id="resultsTitle"></h3>
-                            <h3 id="resultsBody" className="lead"></h3>
+                            <h3 id="resultsTitle"> </h3>
+                            <h3 id="resultsBody" className="lead"> </h3>
                         </div>
                     </div>
                 </div>
