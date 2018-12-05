@@ -25,8 +25,6 @@ function defaultChartData() {
     }
 }
 
-// <canvas id="chart" width="400" height="400" style="width: 400px; height: 400px; max-height: 400px;"></canvas>
-
 function getExponentialProjection( x, k ) { return Math.exp( -k[ 0 ] * x ); }
 
 function getHyperbolicProjection( x, k ) { return Math.pow( ( 1 + k[ 0 ] * x ), -1 ); }
