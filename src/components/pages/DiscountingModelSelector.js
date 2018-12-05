@@ -43,7 +43,7 @@ function getbleichrodtProjection( x, k ) { return k[ 2 ] * Math.exp( -k[ 0 ] * M
 
 function getElementByModel( arr, value ) {
 
-    var result = arr.filter( function ( o ) { return o.Model == value; } );
+    var result = arr.filter( function ( o ) { return o.Model === value; } );
 
     return result ? result[ 0 ] : null;
 }
@@ -343,33 +343,33 @@ class DiscountingModelSelector extends Component {
     getHeadingContent( obj, i ) {
         var mRef = this.getReference( i );
 
-        var isTop = ( i == 0 );
+        var isTop = ( i === 0 );
 
-        if ( obj.Model == "Noise" ) {
+        if ( obj.Model === "Noise" ) {
             mRef.innerHTML = ( getNoise( obj, isTop ) );
         }
-        else if ( obj.Model == "Exponential" ) {
+        else if ( obj.Model === "Exponential" ) {
             mRef.innerHTML = ( getExponential( obj, isTop ) );
         }
-        else if ( obj.Model == "Hyperbolic" ) {
+        else if ( obj.Model === "Hyperbolic" ) {
             mRef.innerHTML = ( getHyperbolic( obj, isTop ) );
         }
-        else if ( obj.Model == "Beta-Delta" ) {
+        else if ( obj.Model === "Beta-Delta" ) {
             mRef.innerHTML = ( getQuasiHyperbolic( obj, isTop ) );
         }
-        else if ( obj.Model == "Green-Myerson" ) {
+        else if ( obj.Model === "Green-Myerson" ) {
             mRef.innerHTML = ( getMyerson( obj, isTop ) );
         }
-        else if ( obj.Model == "Rachlin" ) {
+        else if ( obj.Model === "Rachlin" ) {
             mRef.innerHTML = ( getRachlin( obj, isTop ) );
         }
-        else if ( obj.Model == "Loewstein-Prelec" ) {
+        else if ( obj.Model === "Loewstein-Prelec" ) {
             mRef.innerHTML = ( getRodriguezLogue( obj, isTop ) );
         }
-        else if ( obj.Model == "Ebert-Prelec" ) {
+        else if ( obj.Model === "Ebert-Prelec" ) {
             mRef.innerHTML = ( getEbertPrelec( obj, isTop ) );
         }
-        else if ( obj.Model == "Beleichrodt" ) {
+        else if ( obj.Model === "Beleichrodt" ) {
             mRef.innerHTML = ( getBleichrodt( obj, isTop ) );
         }
     }
