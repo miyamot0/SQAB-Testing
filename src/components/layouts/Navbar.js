@@ -20,7 +20,7 @@ const Navbar = () => {
                     <div className="navbar-collapse collapse navbar-responsive-collapse">
                         <ul className="nav navbar-nav">
                             <li className="dropdown">
-                                <a href="#"
+                                <a href="/"
                                     data-target="#"
                                     className="dropdown-toggle"
                                     data-toggle="dropdown">Conference<b className="caret"></b></a>
