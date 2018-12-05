@@ -736,8 +736,8 @@ class DiscountingModelSelector extends Component {
                 submitText: "Fit Models"
             } );
 
-            for ( var i = 0; i < obj.data.results.length; i++ ) {
-                this.getHeadingContent( obj.data.results[ i ], i );
+            for ( var k = 0; k < obj.data.results.length; k++ ) {
+                this.getHeadingContent( obj.data.results[ k ], k );
             }
 
             var hiddenTitles = document.querySelectorAll( '.hiddenTitles' );
